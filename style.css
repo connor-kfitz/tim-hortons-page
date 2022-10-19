@@ -27,5 +27,57 @@ nav {
 }
 
 #nav-logo-cont {
-    width: 100px;
+    width: 160px;
+    fill: #ffffff;
+}
+
+#account-nav-cont {
+    display: flex;
+    list-style: none;
+    margin: 0 36px 0 0;
+}
+
+#account-nav-cont li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 0 20px;
+}
+
+#sign-in-button {
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    padding: 7px 22px;
+    border-radius: 40px;
+}
+
+#cart-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 40px;
+    border: none;
+    padding: 7px 22px;
+    background-color: #c8102e;
+}
+
+#cart-icon-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    color: #ffffff;
+}
+
+#cart-icon-cont svg{
+    background-color: #c8102e;
+    fill: white;
+}
+
+#cart-button span {
+    margin: 0 0 1px 8px;
 }
