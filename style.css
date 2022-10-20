@@ -139,6 +139,7 @@ main {
 
 #sec-one {
     margin: 0 auto;
+    border: solid black 1px;
 }
 
 #sec-one-cont {
@@ -195,14 +196,15 @@ main {
 }
 
 #sec-two {
-    display: flex;
-    flex-direction: column;
+    border: black solid 1px;
+
     max-width: 1136px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .sub-sec-two {
     width: 50%;
-    /* border: black solid 3px; */
 }
 
 .sub-sec-two-img-cont img{
