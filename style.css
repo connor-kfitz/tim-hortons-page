@@ -295,6 +295,7 @@ main {
 
 #sec-three-text-cont h1{
     font-size: 56px;
+    line-height: 1;
 }
 
 #sec-three-text-cont p{
@@ -317,4 +318,36 @@ main {
 #sec-three-terms {
     font-size: 13px;
     margin-top: 25px;
+}
+
+/* End of Main */
+
+/* Footer */
+
+footer {
+    margin-top: 80px;
+}
+
+.footer-cont {
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 48px 72px;
+}
+
+.footer-text-cont {
+    width: 33%;
+    color: rgb(63, 32, 33);
+}
+
+.footer-text-cont ul{
+    list-style: none;
+}
+
+.footer-text-cont h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer-text-cont li{
+    font-size: 16px;
 }
