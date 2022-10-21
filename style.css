@@ -2,11 +2,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Sofia Pro', 'Helvetica', 'Arial', 'sans-serif';
-
 }
 
 /* Header */
-
 header {
     /* position: fixed; */
     width: 100%;
@@ -209,19 +207,32 @@ main {
 
 .sub-sec-two {
     max-width: 49.5%;
-
+    margin-bottom: 20px;
 }
 
 .sub-sec-two-img-cont img{
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-
 }
+
+.a {
+    background-color: #0d1824;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 
 .sub-sec-lower-cont {
     display: flex;
     padding: 16px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.hyundai-sub {
+    background-color: #0d1824;
+    color: #ffffff;
 }
 
 .sec-two-text-cont {
@@ -333,6 +344,7 @@ footer {
     background-color: #e5e5e5;
     padding: 48px 72px;
     border-bottom: solid #dcd9d9 1px;
+    width: 100%;
 }
 
 .footer-text-cont {
@@ -389,5 +401,4 @@ footer {
 
 #footer-tims-tm {
     /* padding: 48px 72px; */
-    width: 100%;
 }
