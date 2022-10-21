@@ -332,6 +332,7 @@ footer {
     display: flex;
     background-color: #e5e5e5;
     padding: 48px 72px;
+    border-bottom: solid #dcd9d9 1px;
 }
 
 .footer-text-cont {
@@ -350,4 +351,38 @@ footer {
 
 .footer-text-cont li{
     font-size: 16px;
+}
+
+.footer-two-list {
+    margin-bottom: 4px;
+}
+
+#footer-two-connect-list{
+    margin-top: 4px;
+}
+
+#footer-two-connect-list {
+    display: flex;
+    margin-left: -6px;
+}
+
+#footer-two-connect-list a{
+    width: 26px;
+    height: 26px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#footer-two-connect-list svg{
+    width: 16px;
+    height: 16px;
+}
+
+#footer-two-connect-list a:hover{
+    cursor: pointer;
+    background-color: rgb(153, 12, 35);;
+    fill: white;
 }
