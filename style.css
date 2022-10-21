@@ -386,3 +386,8 @@ footer {
     background-color: rgb(153, 12, 35);;
     fill: white;
 }
+
+#footer-tims-tm {
+    /* padding: 48px 72px; */
+    width: 100%;
+}
